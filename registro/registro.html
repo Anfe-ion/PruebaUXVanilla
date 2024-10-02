@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro en el Sistema de la ADRES</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="formulario">
+        <h1>Regístrese en la ADRES</h1>
+
+        <form>
+            <div>
+                <div>
+                    <label for="nombres">Nombres <span class="obligatorio">*</span></label>
+                    <input type="text" id="nombres" name="nombres" placeholder="Ingrese sus nombres">
+                </div>
+
+                <div>
+                    <label for="apellidos">Apellidos <span class="obligatorio">*</span></label>
+                    <input type="text" id="apellidos" name="apellidos" placeholder="Ingrese sus apellidos">
+                </div>
+
+                <div>
+                    <label for="celular">Celular <span class="obligatorio">*</span></label>
+                    <input type="text" id="celular" name="celular" placeholder="Ingrese su número de celular">
+                </div>
+
+                <div>
+                    <label for="telefono">Teléfono <span class="obligatorio">*</span></label>
+                    <input type="text" id="telefono" name="telefono" placeholder="Ingrese su número de teléfono">
+                </div>
+
+                <div>
+                    <label for="usuario">Usuario <span class="obligatorio">*</span></label>
+                    <input type="text" id="usuario" name="usuario" placeholder="Ingrese un nombre de usuario">
+                </div>
+
+                <div>
+                    <label for="contraseña">Contraseña <span class="obligatorio">*</span></label>
+                    <input type="password" id="contraseña" name="contraseña" placeholder="Ingrese una contraseña">
+                </div>
+
+            </div>
+
+            <input class="button" type="submit" value="Registrarse">
+        </form>
+    </div>
+
+    <div class="footer">
+    </div>
+
+    <div id="modalRegistro" class="modal">
+        <div class="modal-content">
+            <img src="../assets/check.png" alt="Registro Exitoso" width="164" height="164">
+            <h2>Registro Satisfactorio</h2>
+            <button id="btnEntrar" class="button">Entrar a mi cuenta</button>
+        </div>
+    </div>
+
+    <script src="header.js"></script>
+    <script src="menu.js"></script>
+    <script src="form.js"></script>
+
+</body>
+
+</html>

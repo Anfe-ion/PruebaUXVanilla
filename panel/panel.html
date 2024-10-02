@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ya ha ingresado a la ADRES</title>
+    <link rel="stylesheet" href="/registro/styles.css">
+</head>
+<body>
+    <div class="formulario">
+        <h1>Ingreso satisfactorio al sistema ADRES</h1>
+        <button class="button" id="btnSalir">Salir</button>
+    </div>
+
+    <div class="footer"></div>
+
+    <style>
+        h1{
+            padding-bottom: 44px;
+        }
+    </style>
+    
+    <script src="../registro/header.js"></script>
+    <script src="../registro/menu.js"></script>
+    <script>
+        document.getElementById('btnSalir').addEventListener('click', function() {
+            window.location.href = '../registro/registro.html'; 
+        });
+    </script>
+</body>
+</html>
